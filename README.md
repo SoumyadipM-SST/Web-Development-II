@@ -27,57 +27,99 @@ Web-Development-II/
 
 ---
 
-## ICP – Clipboard
+# ICP – Clipboard
 
-Location: `ICP-Clipboard/`
+A simple web application that demonstrates the use of the **JavaScript Clipboard API**.
 
-A small web application demonstrating the use of the **JavaScript Clipboard API**.
-It allows users to copy text from a textarea to the system clipboard and paste clipboard content back into the page.
+### Features
 
-Main learning points:
+* Text area for entering text
+* Copy button to copy text to the system clipboard
+* Paste button to paste clipboard text into the textarea
+* Status messages for successful or failed operations
+* Dark themed interface with simple UI
 
-* DOM manipulation
-* Event handling
-* Clipboard API usage
-* Basic UI design using CSS
+### Technologies Used
 
-More details about this project are available in:
-
-```
-ICP-Clipboard/Clip_Readme.md
-```
+* HTML
+* CSS
+* JavaScript (Clipboard API)
 
 ---
 
-## ETP – Cinema Database
+# ETP – Cinema Database
 
-Location: `ETP - Cinema-Database/`
+A movie search web application that fetches movie data from **The Movie Database (TMDb) API** and displays detailed information about movies.
 
-A movie search web application that retrieves movie data using **The Movie Database (TMDb) API** and displays detailed information about movies, including trailers and recommendations.
+### Features
 
-Main learning points:
+* Search movies by **name**
+* Optional filters for **language** and **year**
+* Displays:
 
-* Working with external APIs
-* Fetch API and asynchronous JavaScript
-* Dynamic UI rendering
-* Interactive search functionality
-* Modal popups and embedded video
-
-More details about this project are available in:
-
-```
-ETP - Cinema-Database/CD_Readme.md
-```
+  * Movie title
+  * Poster and backdrop
+  * Rating and popularity
+  * Genres
+  * Cast members
+  * Budget and revenue
+  * Movie description
+* **Watch Trailer** feature using YouTube
+* **Recommended movies section**
+* Dynamic UI with animated layout changes
 
 ---
 
 ## Technologies Used
 
-* **HTML5**
-* **CSS3**
-* **JavaScript (ES6)**
-* **Fetch API**
-* **TMDb API**
+* **HTML5** – Page structure
+* **CSS3** – Styling and responsive layout
+* **JavaScript (ES6)** – Application logic
+* **Fetch API** – API requests
+* **TMDb API** – Movie database data source
+
+---
+
+## How the Cinema Database Works
+
+1. The user enters a movie name in the search bar.
+2. The application sends a request to the **TMDb API**.
+3. The API returns movie information including:
+
+   * details
+   * cast
+   * trailers
+   * recommendations
+4. JavaScript dynamically generates the interface and displays the movie data.
+
+---
+
+## Running the Projects
+
+1. Clone or download the repository.
+2. Navigate to the project folder.
+3. Open the HTML file in a web browser.
+
+Example:
+
+```
+open index.html
+```
+
+or use a local server such as **VS Code Live Server**.
+
+---
+
+## Learning Objectives
+
+These projects demonstrate:
+
+* DOM manipulation
+* Event handling
+* Asynchronous JavaScript (`async/await`)
+* Fetching data from external APIs
+* Dynamic UI rendering
+* Basic frontend project structuring
 
 ---
 
