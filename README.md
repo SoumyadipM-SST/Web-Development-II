@@ -1,11 +1,13 @@
 # Web Development II
 
-This repository section contains projects completed for **Web Development II**.
-It includes an **ICP (In-Class Project)** and an **ETP (End Term Project)** demonstrating the use of HTML, CSS, JavaScript, and external APIs to build interactive web applications.
+This directory contains the projects completed for the **Web Development II** module. The work is divided into two parts:
+
+* **ICP (In-Class Project)** – Small project focused on practicing specific web development concepts.
+* **ETP (End Term Project)** – A larger project demonstrating the integration of multiple frontend techniques and API usage.
 
 ---
 
-## Project Structure
+## Folder Structure
 
 ```
 Web-Development-II/
@@ -13,109 +15,69 @@ Web-Development-II/
 ├── ICP-Clipboard/
 │   ├── Clipboard.html
 │   ├── Clipboard.css
-│   └── Clipboard.js
+│   ├── Clipboard.js
+│   └── Clip_Readme.md
 │
-└── ETP-Cinema-Database/
+└── ETP - Cinema-Database/
     ├── index.html
     ├── style.css
-    └── script.js
+    ├── script.js
+    └── CD_Readme.md
 ```
 
 ---
 
-# ICP – Clipboard
+## ICP – Clipboard
 
-A simple web application that demonstrates the use of the **JavaScript Clipboard API**.
+Location: `ICP-Clipboard/`
 
-### Features
+A small web application demonstrating the use of the **JavaScript Clipboard API**.
+It allows users to copy text from a textarea to the system clipboard and paste clipboard content back into the page.
 
-* Text area for entering text
-* Copy button to copy text to the system clipboard
-* Paste button to paste clipboard text into the textarea
-* Status messages for successful or failed operations
-* Dark themed interface with simple UI
+Main learning points:
 
-### Technologies Used
+* DOM manipulation
+* Event handling
+* Clipboard API usage
+* Basic UI design using CSS
 
-* HTML
-* CSS
-* JavaScript (Clipboard API)
+More details about this project are available in:
+
+```
+ICP-Clipboard/Clip_Readme.md
+```
 
 ---
 
-# ETP – Cinema Database
+## ETP – Cinema Database
 
-A movie search web application that fetches movie data from **The Movie Database (TMDb) API** and displays detailed information about movies.
+Location: `ETP - Cinema-Database/`
 
-### Features
+A movie search web application that retrieves movie data using **The Movie Database (TMDb) API** and displays detailed information about movies, including trailers and recommendations.
 
-* Search movies by **name**
-* Optional filters for **language** and **year**
-* Displays:
+Main learning points:
 
-  * Movie title
-  * Poster and backdrop
-  * Rating and popularity
-  * Genres
-  * Cast members
-  * Budget and revenue
-  * Movie description
-* **Watch Trailer** feature using YouTube
-* **Recommended movies section**
-* Dynamic UI with animated layout changes
+* Working with external APIs
+* Fetch API and asynchronous JavaScript
+* Dynamic UI rendering
+* Interactive search functionality
+* Modal popups and embedded video
+
+More details about this project are available in:
+
+```
+ETP - Cinema-Database/CD_Readme.md
+```
 
 ---
 
 ## Technologies Used
 
-* **HTML5** – Page structure
-* **CSS3** – Styling and responsive layout
-* **JavaScript (ES6)** – Application logic
-* **Fetch API** – API requests
-* **TMDb API** – Movie database data source
-
----
-
-## How the Cinema Database Works
-
-1. The user enters a movie name in the search bar.
-2. The application sends a request to the **TMDb API**.
-3. The API returns movie information including:
-
-   * details
-   * cast
-   * trailers
-   * recommendations
-4. JavaScript dynamically generates the interface and displays the movie data.
-
----
-
-## Running the Projects
-
-1. Clone or download the repository.
-2. Navigate to the project folder.
-3. Open the HTML file in a web browser.
-
-Example:
-
-```
-open index.html
-```
-
-or use a local server such as **VS Code Live Server**.
-
----
-
-## Learning Objectives
-
-These projects demonstrate:
-
-* DOM manipulation
-* Event handling
-* Asynchronous JavaScript (`async/await`)
-* Fetching data from external APIs
-* Dynamic UI rendering
-* Basic frontend project structuring
+* **HTML5**
+* **CSS3**
+* **JavaScript (ES6)**
+* **Fetch API**
+* **TMDb API**
 
 ---
 
