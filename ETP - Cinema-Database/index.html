@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cinema Database</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap" 
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header-wrapper">
+      <h1 id="site-title" style="cursor:pointer;">Cinema Database</h1>
+      <div class="nav">
+        <div class="search-wrapper">
+          <input type="text" id="movie-input" placeholder="Search Your Movies/Series here..." />
+
+          <select id="language-input">
+            <option value="">Any Language</option>
+            <option value="hi">Hindi</option>
+            <option value="en">English</option>
+            <option value="bn">Bengali</option>
+          </select>
+          
+          <input type="number" id="year-input" placeholder="Year" max="2026"/>
+          <button class="search-btn">Search</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="output"></div>
+    <div class="related-section">
+      <div class="related-grid" id="related-grid"></div>
+    </div>
+
+    <div id="trailer-modal" class="modal">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <div id="trailer-container"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
