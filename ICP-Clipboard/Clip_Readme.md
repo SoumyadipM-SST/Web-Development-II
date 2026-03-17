@@ -94,4 +94,3 @@ This project demonstrates:
 ## Author
 
 Soumyadip Mandal
-Web Development II – ICP Project
