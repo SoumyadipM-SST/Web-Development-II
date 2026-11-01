@@ -4,6 +4,7 @@ This directory contains the projects completed for the **Web Development II** mo
 
 * **ICP (In-Class Project)** – Small project focused on practicing specific web development concepts.
 * **ETP (End Term Project)** – A larger project demonstrating the integration of multiple frontend techniques and API usage.
+* **Cinema Database** - [Open Deployed Link](https://soumyadipm-sst.github.io/Web-Development-II/ETP%20-%20Cinema-Database/index.html)
 
 ---
 
